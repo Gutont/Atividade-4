@@ -1,0 +1,191 @@
+:root {
+    --bg: #000000; 
+    --text: #ffffff; 
+    --border: #383838; 
+    --link: #2c9080; 
+    --link-hover: #08bd98; 
+    --text-glow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3); 
+    --link-glow: 0 0 5px rgba(44, 144, 128, 0.7), 0 0 10px rgba(44, 144, 128, 0.5); 
+  }
+  
+  html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #000000;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: var(--text);
+    font-family: "Jersey 10", sans-serif;
+    text-shadow: var(--text-glow); 
+  }
+  
+  img{
+      width: 350px;
+      border-radius: 50px;
+  }
+  .img{
+    width: 100px;
+    border-radius: 50px;
+  }
+
+  a:link {
+    color: var(--link);
+    text-decoration: none;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+  
+  a:visited {
+    color: var(--link);
+    text-decoration: none;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+  
+  a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+  
+  p {
+    text-shadow: var(--text-glow); 
+  }
+  
+  h1 {
+    color: var(--link-color);
+    margin: 0;
+    transition: 0.7s;
+  }
+
+  
+.box {
+  background-color: black;
+  border: 5px solid white;
+  width: 800px;
+  padding: 15px;
+  font-size: 44px;
+  color: white;
+  font-family: "Determination";
+  display: flow-root;
+  margin: 0 auto;
+}
+
+  .navbar {
+    word-spacing: 1px;
+    text-align: center;
+    margin-top: 4%;
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+  iframe {
+    display: block; 
+    margin: 0 auto;
+    margin-top: 2%;
+}
+  aside {
+    width: 210px;
+    background: rgba(15, 0, 0, 0.8);
+    text-align: center;
+    margin-top: -18.6%;
+    padding: 10px;
+    margin-left: 71%;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+}
+
+  .main{
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+
+  table, th, td {
+    background-color: #000000;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    border: var(--border) 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: var(--text);
+    text-shadow: var(--text-glow); 
+  }
+
+  tr:nth-child(odd) {
+    background-color: #383838;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+    text-shadow: var(--link-glow); 
+    transition: 0.7s;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .navbar {
+      word-spacing: 1px;
+      text-align: center;
+      margin-top: 6%;
+      padding: 10px;
+      margin-left: 15%;
+      margin-right: 15%;
+      border: var(--border) 2px solid;
+      border-radius: 4px;
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.6);
+      text-shadow: var(--text-glow); 
+    }
+  
+  }
+  @font-face {
+    font-family: "Determination";
+    src: url("/fonts/DeterminationMonoWebRegular-Z5oq.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
